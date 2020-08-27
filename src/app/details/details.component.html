@@ -1,0 +1,15 @@
+<h1 class="h1">Detalle del libro</h1>
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center" class="products">
+  <mat-card fxFlex="50%" fxFlex.gt-sm="50%" class="mat-elevation-z1">
+    <h3>{{book.title}}</h3>
+    <img src="http://covers.openlibrary.org/b/OLID/{{book.cover_id}}-M.jpg" />
+    <h4>Autores</h4>
+    <p>
+      {{book.authors}}
+    </p>
+    <h4>Publicado</h4>
+    <p>
+      {{book.year}}
+    </p>
+  </mat-card>
+</div>
